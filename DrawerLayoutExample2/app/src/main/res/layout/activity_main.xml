@@ -8,26 +8,27 @@
         android:id="@+id/frameChanger"
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
     </FrameLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:orientation="vertical"
-        android:id="@+id/linearLayout"
-        android:background="@android:color/holo_red_dark">
+        android:background="@android:color/holo_red_dark"
+        android:orientation="vertical">
 
-<ListView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/list">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-</ListView>
+        </ListView>
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

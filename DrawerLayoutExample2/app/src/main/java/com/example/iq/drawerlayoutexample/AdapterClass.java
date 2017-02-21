@@ -18,12 +18,12 @@ public class AdapterClass extends ArrayAdapter<VariableClass> {
     public AdapterClass(Activity activity, ArrayList<VariableClass> arrayList) {
         super(activity, 0, arrayList);
     }
+
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
-    {
+    public View getView(int position, View convertView, ViewGroup parent) {
         View v = convertView;
-        if (v==null){
-            v = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+        if (v == null) {
+            v = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
         VariableClass CurrentWOrd = getItem(position);
         TextView textView = (TextView) v.findViewById(R.id.textView);
