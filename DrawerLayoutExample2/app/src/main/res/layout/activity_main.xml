@@ -19,6 +19,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:orientation="vertical"
+        android:id="@+id/linearLayout"
         android:background="@android:color/holo_red_dark">
 
 <ListView
