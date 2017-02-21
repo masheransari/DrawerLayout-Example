@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".class_1" />
+        <activity android:name=".class_2" />
+        <activity android:name=".class_3" />
+        <activity android:name=".class_4"></activity>
     </application>
 
 </manifest>
